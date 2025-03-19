@@ -27,14 +27,7 @@
 
 # Autores
 
-* Aluno 1
-* Aluno 2
-* Aluno 3
-* Aluno 4
-* Aluno 5
-* Aluno 6
-* Aluno 7
-* Aluno 8
+* Kauan Sarzi Da Rocha
 
 
 # Descrição do Projeto
@@ -42,7 +35,15 @@
 *&lt;Introdução do projeto&gt;*
 
 # Análise de Requisitos Funcionais e Não-Funcionais
-*&lt;Descrição dos requisitos&gt;*
+
+#Requisitos Funcionais 
+* Cadastro de medicamentos e produtos: * cadastra os produtos no sistema com todas as informaçoes de cada produto. <br>
+* Cadastro de clientes: *  <br>
+* Processo de Venda: *
+
+
+
+
 
 # Diagrama de Atividades
 
