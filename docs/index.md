@@ -46,7 +46,7 @@ Este projeto é um software para a Farmácia Vida Saudável, um estabelecimento 
 
 
 # Diagrama de Atividades
-![Captura de tela 2025-03-20 163355](https://github.com/user-attachments/assets/fabe74d8-1ca6-41f4-b3da-ad531041c2ea)
+![Captura de tela 2025-03-20 163355](https://github.com/user-attachments/assets/fabe74d8-1ca6-41f4-b3da-ad531041c2ea) <br>
 
 
 
