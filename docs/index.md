@@ -32,7 +32,7 @@
 
 # Descrição do Projeto
 
-*&lt;Introdução do projeto&gt;*
+Este projeto é um software para a Farmácia Vida Saudável, um estabelecimento de pequeno porte que busca modernizar e otimizar sua gestão interna. O sistema permitirá o controle eficiente de vendas, estoque, cadastro de clientes e geração de relatórios gerenciais, substituindo os processos manuais atualmente utilizados. O sistema atende tanto às demandas operacionais dos atendentes quanto às necessidades administrativas do gestor da farmácia, garantindo agilidade, organização e precisão no atendimento ao cliente.
 
 # Análise de Requisitos Funcionais e Não-Funcionais
 
