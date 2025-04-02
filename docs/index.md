@@ -52,7 +52,8 @@ Este projeto é um software para a Farmácia Vida Saudável, um estabelecimento 
 
 # Diagrama de Casos de Uso
 
-![image](https://github.com/user-attachments/assets/f85983cb-a55b-45cc-9f36-179914b9888c) <br>
+![image](https://github.com/user-attachments/assets/21f57de6-4748-43af-80b2-9a790748874c)
+ <br>
 
 
 # Descrição dos Casos de Uso
