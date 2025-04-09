@@ -58,7 +58,85 @@ Este projeto é um software para a Farmácia Vida Saudável, um estabelecimento 
 
 # Descrição dos Casos de Uso
 
-*&lt;Descrição do comportamento entre os atores/resquisitos&gt;*
+
+##  Caso de Uso: Cadastrar Produto
+- **Ator:** Administrador  
+- **Descrição:** Permite ao administrador cadastrar novos medicamentos e produtos no sistema, informando nome, descrição, fabricante, lote, validade, quantidade em estoque e preço de venda.  
+- **Pré-condição:** O administrador deve estar autenticado no sistema.  
+- **Pós-condição:** Produto registrado com sucesso e disponível para consulta.  
+- **Fluxo Principal:**
+  1. Administrador acessa o menu de cadastro.
+  2. Preenche os campos obrigatórios.
+  3. Salva as informações.
+  4. Sistema confirma o cadastro.  
+- **Fluxo Alternativo:** Campos obrigatórios em branco → sistema exibe mensagem de erro.
+
+<br>
+
+##  Caso de Uso: Consultar Produto
+- **Ator:** Atendente  
+- **Descrição:** Permite que o atendente busque por um medicamento ou produto para verificar sua disponibilidade.  
+- **Pré-condição:** O atendente deve estar autenticado.  
+- **Pós-condição:** Produto localizado e informações exibidas.  
+- **Fluxo Principal:**
+  1. Atendente insere nome ou código do produto.
+  2. Sistema retorna dados do produto, incluindo estoque.  
+- **Fluxo Alternativo:** Produto não encontrado → sistema exibe "produto indisponível".
+
+<br>
+
+##  Caso de Uso: Registrar Venda
+- **Ator:** Atendente  
+- **Descrição:** Realiza o processo de venda de um ou mais produtos a um cliente, vinculando ao CPF.  
+- **Pré-condição:** Produto deve estar disponível em estoque.  
+- **Pós-condição:** Estoque atualizado, venda registrada e cupom gerado.  
+- **Fluxo Principal:**
+  1. Atendente seleciona produtos.
+  2. Informa CPF do cliente.
+  3. Sistema registra venda.
+  4. Estoque é atualizado automaticamente.
+  5. Cupom fiscal é gerado.
+
+<br>
+
+##  Caso de Uso: Cadastrar Cliente
+- **Ator:** Atendente  
+- **Descrição:** Registra os dados de um novo cliente no sistema.  
+- **Pré-condição:** CPF do cliente deve ser válido e único.  
+- **Pós-condição:** Cliente salvo com histórico de compras em branco.  
+- **Fluxo Principal:**
+  1. Atendente acessa o menu de cadastro.
+  2. Insere nome, CPF e telefone.
+  3. Sistema salva os dados.  
+- **Fluxo Alternativo:** CPF já cadastrado → sistema exibe erro de duplicidade.
+
+<br>
+
+##  Caso de Uso: Gerar Relatórios
+- **Ator:** Administrador  
+- **Descrição:** Permite gerar relatórios de vendas, estoque e comportamento de clientes.  
+- **Pré-condição:** Acesso de administrador.  
+- **Pós-condição:** Relatório exibido na tela ou exportado.  
+- **Fluxo Principal:**
+  1. Administrador escolhe tipo de relatório (vendas, produtos ou clientes).
+  2. Informa período desejado.
+  3. Sistema gera o relatório com os dados solicitados.  
+
+<br>
+
+##  Caso de Uso: Autenticar Usuário
+- **Ator:** Administrador ou Atendente  
+- **Descrição:** Realiza login no sistema com credenciais e define permissões de acesso.  
+- **Pré-condição:** Usuário deve possuir login e senha válidos.  
+- **Pós-condição:** Usuário acessa as funções conforme seu perfil.  
+- **Fluxo Principal:**
+  1. Usuário informa login e senha.
+  2. Sistema valida as credenciais.
+  3. Libera acesso ao ambiente correspondente (admin ou atendente).  
+- **Fluxo Alternativo:** Dados inválidos → sistema bloqueia acesso e exibe aviso.
+
+<br>
+
 
 # Diagrama de Sequência
 
