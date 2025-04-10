@@ -109,18 +109,18 @@ Os **logs devem ser armazenados por no mínimo 5 anos** e protegidos contra **al
 
 
 # Diagrama de Atividades
-![Captura de tela 2025-03-20 163355](https://github.com/user-attachments/assets/fabe74d8-1ca6-41f4-b3da-ad531041c2ea) <br>
+
+![Captura de tela 2025-03-20 163355](https://github.com/user-attachments/assets/fabe74d8-1ca6-41f4-b3da-ad531041c2ea) <br><br>
 
 
 
 # Diagrama de Casos de Uso
 
 ![image](https://github.com/user-attachments/assets/21f57de6-4748-43af-80b2-9a790748874c)
- <br>
+ <br><br>
 
 
 # Descrição dos Casos de Uso
-
 
 ##  Caso de Uso: Cadastrar Produto
 - **Ator:** Administrador  
