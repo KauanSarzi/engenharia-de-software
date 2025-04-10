@@ -102,6 +102,8 @@ A **interface do usuário** deve ser **intuitiva** e **responsiva**, adaptando-s
 O sistema deve permitir **auditoria de todas as transações realizadas**.  
 Os **logs devem ser armazenados por no mínimo 5 anos** e protegidos contra **alteração ou exclusão**.
 
+<br><br>
+
 
 
 
