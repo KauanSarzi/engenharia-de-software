@@ -69,6 +69,39 @@ O sistema deve permitir a **busca por produtos no estoque**, pelo **nome** ou **
 O sistema deve integrar-se com um **sistema de pagamento** para processar **cartões de crédito e débito**.
 <br><br>
 
+## Requisitos Não Funcionais
+
+### RNF-01 – Disponibilidade  
+O sistema deve estar disponível **99,9% do tempo**, garantindo **alta disponibilidade**.
+
+### RNF-02 – Desempenho  
+O **tempo de resposta** para a **consulta de produtos no estoque** não deve ultrapassar **2 segundos**.
+
+### RNF-03 – Acessibilidade  
+O sistema deve ser acessível via **navegador web** e **aplicativo móvel**.
+
+### RNF-04 – Segurança e Conformidade  
+Os **dados dos clientes** e das **transações** devem ser armazenados de forma segura, garantindo **conformidade com a LGPD** (Lei Geral de Proteção de Dados).
+
+### RNF-05 – Autenticação  
+O sistema deve exigir **autenticação dos funcionários** para acesso às **funções administrativas**.
+
+### RNF-06 – Criptografia  
+O **banco de dados** deve ser protegido com **criptografia**, evitando **acessos não autorizados**.
+
+### RNF-07 – Escalabilidade  
+O sistema deve suportar até **500 usuários simultâneos** sem degradação no desempenho.
+
+### RNF-08 – Backup  
+O sistema deve realizar **backups automáticos diariamente**.
+
+### RNF-09 – Usabilidade  
+A **interface do usuário** deve ser **intuitiva** e **responsiva**, adaptando-se a **diferentes dispositivos**.
+
+### RNF-10 – Auditoria e Log  
+O sistema deve permitir **auditoria de todas as transações realizadas**.  
+Os **logs devem ser armazenados por no mínimo 5 anos** e protegidos contra **alteração ou exclusão**.
+
 
 
 
