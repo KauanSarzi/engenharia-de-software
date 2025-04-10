@@ -36,10 +36,38 @@ Este projeto é um software para a Farmácia Vida Saudável, um estabelecimento 
 
 # Análise de Requisitos Funcionais e Não-Funcionais
 
-#Requisitos Funcionais 
-* Cadastro de medicamentos e produtos: * cadastra os produtos no sistema com todas as informaçoes de cada produto. <br>
-* Cadastro de clientes: *  <br>
-* Processo de Venda: *
+## Requisitos Funcionais
+
+### RF-01 – Cadastro de Clientes  
+O sistema deve permitir o **cadastro**, **edição** e **exclusão** de clientes, incluindo informações como **nome**, **CPF**, **endereço** e **telefone**.
+
+### RF-02 – Cadastro de Produtos  
+O sistema deve permitir o **cadastro**, **edição** e **exclusão** de produtos, incluindo **nome**, **descrição**, **lote**, **data de validade** e **quantidade em estoque**.
+
+### RF-03 – Realização de Vendas  
+O sistema deve possibilitar a **realização de vendas**, associando um **cliente** e os **produtos comprados**, gerando um **recibo digital**.
+
+### RF-04 – Cálculo de Compra  
+O sistema deve **calcular automaticamente** o **total da compra** e aplicar **descontos promocionais**, caso necessário.
+
+### RF-05 – Histórico de Compras  
+O sistema deve permitir a **consulta do histórico de compras** dos clientes cadastrados.
+
+### RF-06 – Alerta de Validade  
+O sistema deve emitir **alertas para produtos próximos da data de validade**.
+
+### RF-07 – Controle de Estoque  
+O sistema deve permitir o **controle de estoque**, informando a **quantidade disponível** de cada produto.
+
+### RF-08 – Relatórios de Vendas  
+O sistema deve permitir a **geração de relatórios de vendas** **diárias**, **semanais** e **mensais**.
+
+### RF-09 – Busca de Produtos  
+O sistema deve permitir a **busca por produtos no estoque**, pelo **nome** ou **código de barras**.
+
+### RF-10 – Integração com Pagamentos  
+O sistema deve integrar-se com um **sistema de pagamento** para processar **cartões de crédito e débito**.
+<br><br>
 
 
 
