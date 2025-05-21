@@ -211,7 +211,8 @@ Os **logs devem ser armazenados por no mínimo 5 anos** e protegidos contra **al
 
 # Diagrama de Estados
 
-*&lt;Diagrama para permite modelar o comportamento interno de um determinado objeto, subsistema ou sistema global&gt;*
+![image](https://github.com/user-attachments/assets/3787e8d4-4e34-435a-91dd-fbfe20d6fc88)
+
 
 # Diagrama de Implantação
 
