@@ -211,7 +211,8 @@ Os **logs devem ser armazenados por no mínimo 5 anos** e protegidos contra **al
 
 # Diagrama de Estados
 
-![image](https://github.com/user-attachments/assets/3787e8d4-4e34-435a-91dd-fbfe20d6fc88)
+![image](https://github.com/user-attachments/assets/04e0e1e5-2245-4910-9a48-b8f780e067ab)
+
 
 
 # Diagrama de Implantação
